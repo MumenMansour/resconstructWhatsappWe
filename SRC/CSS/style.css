@@ -1,0 +1,261 @@
+:root{
+    --fundo1inferior: rgb(211, 219, 203);
+    --fundo1superior: rgb(46, 190, 159);
+    --color-backgrounddashbord: rgba(19,28,33,255);
+    --color-backgroundheader: rgba(42,47,51,255);
+    --colorchatconversa : chartreuse;
+    --colorchatconversa2 : rgba(51,56,60,255);
+    --colorchatconversa3 : rgba(120,126,130,255);
+}
+
+body{
+   
+}
+
+.fundo{
+    background: var(--fundo1superior);
+    height:200px    ;
+
+ }
+/*
+.fundo1{
+    background: var(--fundo1inferior);
+    height: calc(100vh - 200px);
+    display: flex;
+    
+}*/
+.cabecalhobotaoesquerda a{
+    color: white;
+}
+.topoIndex{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    top: 80px;
+}
+.cabecalho{
+    border: 0.5px solid var(--colorchatconversa3);
+    align-items: center;
+    display: flex;
+    
+    background-color: var(--color-backgroundheader);
+    
+}
+.topright{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topleft{
+    margin-left: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho2{
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    display: flex;
+    background-color:var(--color-backgroundheader);
+    border: 2px solid var(--colorchatconversa3);
+}
+.cabecalhodireito img{
+    display: flex;
+    height: 60px;
+    border-radius: 200px;
+    padding: 15px;
+}
+.cabecalhobotaoesquerda span{
+    padding: 15px;
+
+}
+.cabecalhodireitotexto{
+    
+    width: 700px;
+    padding: 15px;
+}
+.cabecalhoesquerdo{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    align-items: center;
+}
+
+.cabecalhoesquerdo img{
+    border-radius: 220px;
+    height: 55px;
+    padding: 15px;
+
+}
+
+.dados {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--colorchatconversa3);
+}
+
+.cabecalhobotaodireita{
+    padding: 15px;
+}
+.cabecalhobotaodireita span{
+    padding: 15px;
+    
+    color: white;
+}
+
+.cabecalhodireitotexto a{
+    color: white;
+    
+    text-decoration: none;
+    
+}
+
+.cabecalhodireitotexto p{
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.bodyleft{
+    display: flex;
+    
+    justify-content: center;
+    z-index: 1;
+    top:260px;
+
+}
+.chatuser{
+    width: 100%;
+}
+.chatuser p{
+    width: 100%;
+    color: var(--colorchatconversa3) ;
+    margin-top:  10px;
+}
+.pesquisa{
+    
+    padding: 10px;
+}
+.pesquisa input{
+    background-color: var(--colorchatconversa2);    
+    width: 480px;
+    border-radius: 15px;
+    height: 25px;
+}
+.cabecalhobotaoesquerda{
+    display: flex;
+    color: white;
+}
+
+.conversas{
+    color: azure;    
+    width: 100%;
+    background-color: var(--color-backgrounddashbord);
+    border: 0.5px solid var(--colorchatconversa3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.imagemconversa{
+    height: 81px;
+    display: flex;
+    align-items: center;
+}
+.imagemconversa img{
+    width: 60px;
+    border-radius: 1000px;
+    padding: 10px;
+}
+.chatconversa{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.notificacoes{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.notificacaonumero{
+    text-align: center;
+    margin: 3px;
+    background-color:var(--colorchatconversa);
+    border: black solid 1px;
+    border-radius: 200px;
+    padding: 6px;
+    font-size: 15px;
+    color: black;
+}
+
+.notificacaonumero2{
+    display: none;
+    margin: 3px;
+    background-color: var(--color-backgroundheader);
+    border: black solid 1px;
+    border-radius: 200px;
+    padding: 6px;
+    font-size: 15px;
+    color: black;
+}
+
+.topright{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    width: 100%;
+    height: 634px;
+
+    background: url(../IMG/imagemfundo.jpg);
+}
+
+.barradedigitacao{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-backgrounddashbord);
+    border: 0.5px solid grey;
+
+}
+
+.barradedigitacao a{
+    padding: 5px;
+}
+
+.barradedigitacao input{
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+}
+
+.barradedigitacao input{
+    background-color: var(--colorchatconversa2)
+
+}
+.barradedigitacao span{
+    color: white;
+}
+.cabecalhobotaodireita{
+    display: flex;
+    align-items: center;
+}
